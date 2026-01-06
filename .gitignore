@@ -1,0 +1,45 @@
+# Composer
+/vendor/
+composer.phar
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+phpunit.xml
+/build/
+/coverage/
+
+# PHPStan
+phpstan.neon
+/tmp/
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Rector
+/rector-cache/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Tests
+/tests/cache/
+/tests/tmp/
+
+# Build artifacts
+/dist/
+*.phar
